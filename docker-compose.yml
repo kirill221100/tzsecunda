@@ -4,7 +4,7 @@ services:
     build: .
     ports:
       - 8001:8001
-    command: bash -c "alembic upgrade head && psql -d ${POSTGRES_DB} -U ${POSTGRES_USER} -f tz-dump2.sql && gunicorn -b 0.0.0.0:8001 -k uvicorn.workers.UvicornWorker src.main:app"
+    command: bash -c "alembic upgrade head && gunicorn -b 0.0.0.0:8001 -k uvicorn.workers.UvicornWorker src.main:app"
     environment:
       APP_NAME: "tz"
     depends_on:
