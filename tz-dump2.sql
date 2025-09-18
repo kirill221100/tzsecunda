@@ -34,12 +34,6 @@ INSERT INTO public.buildings VALUES ('69dfeb1f-e72d-44a2-893c-db8c1e66ccd7', 'Б
 -- Data for Name: organization_activity; Type: TABLE DATA; Schema: public; Owner: postgres
 --
 
-INSERT INTO public.organization_activity VALUES ('67af8e6d-20b4-4fe0-b921-058578bf68dd', 'dd8e48b6-846a-4ca1-8199-15bd0ab0b797');
-INSERT INTO public.organization_activity VALUES ('67af8e6d-20b4-4fe0-b921-058578bf68dd', 'dfeb732d-b573-404c-a57c-88903b8e2ddf');
-INSERT INTO public.organization_activity VALUES ('5e3c030c-d02c-43fa-b097-d162f80fb944', 'eadcc3a4-8c20-433d-b88c-1e6bce2202b4');
-INSERT INTO public.organization_activity VALUES ('5e3c030c-d02c-43fa-b097-d162f80fb944', '7ab9e0a2-f3d3-4352-80b4-9cd844fc6162');
-INSERT INTO public.organization_activity VALUES ('9dd19a62-2235-4e8c-8bd4-9706b968a405', 'd8423087-ec53-41be-993a-dccb311003b6');
-INSERT INTO public.organization_activity VALUES ('9dd19a62-2235-4e8c-8bd4-9706b968a405', 'b1585d0c-e64c-4ad3-8e6b-cb1f556b1a18');
 
 
 --
@@ -53,6 +47,12 @@ INSERT INTO public.organizations VALUES ('67af8e6d-20b4-4fe0-b921-058578bf68dd',
 INSERT INTO public.organizations VALUES ('5e3c030c-d02c-43fa-b097-d162f80fb944', 'оао красивые люди', '{8-923-666-13-13}', '56fb6d1f-659d-4883-9f3b-7cd3fbf5bb58');
 
 
+INSERT INTO public.organization_activity VALUES ('67af8e6d-20b4-4fe0-b921-058578bf68dd', 'dd8e48b6-846a-4ca1-8199-15bd0ab0b797');
+INSERT INTO public.organization_activity VALUES ('67af8e6d-20b4-4fe0-b921-058578bf68dd', 'dfeb732d-b573-404c-a57c-88903b8e2ddf');
+INSERT INTO public.organization_activity VALUES ('5e3c030c-d02c-43fa-b097-d162f80fb944', 'eadcc3a4-8c20-433d-b88c-1e6bce2202b4');
+INSERT INTO public.organization_activity VALUES ('5e3c030c-d02c-43fa-b097-d162f80fb944', '7ab9e0a2-f3d3-4352-80b4-9cd844fc6162');
+INSERT INTO public.organization_activity VALUES ('9dd19a62-2235-4e8c-8bd4-9706b968a405', 'd8423087-ec53-41be-993a-dccb311003b6');
+INSERT INTO public.organization_activity VALUES ('9dd19a62-2235-4e8c-8bd4-9706b968a405', 'b1585d0c-e64c-4ad3-8e6b-cb1f556b1a18');
 --
 -- TOC entry 3297 (class 2606 OID 123079)
 -- Name: activities activities_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
